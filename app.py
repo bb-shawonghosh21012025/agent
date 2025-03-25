@@ -32,7 +32,7 @@ def save_message(role, content=None, code=None, language=None):
 def query_ai(message):
     """Send user input to Azure OpenAI model and return response."""
     API_URL = "https://bbazuresc-openai.openai.azure.com/openai/deployments/GPT3_5/chat/completions?api-version=2023-09-15-preview"
-    API_KEY = "596e19ab4a5d4c85b9d62f0a01634873"
+    API_KEY = ""
     
     # Include conversation history in the prompt
     conversation = [
